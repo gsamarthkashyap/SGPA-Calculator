@@ -1,0 +1,49 @@
+h4{
+    margin-bottom: 20px;
+}
+body{
+    background-image: url(https://img.freepik.com/free-photo/grunge-black-concrete-textured-background_53876-124541.jpg);
+}        
+p{
+    width: 100px;
+    display: inline-flexbox;
+}
+div{
+    display: inline-flexbox;
+}
+.Calc{
+    background-color: green;
+    cursor: pointer;
+    color: white;
+    height: 60px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 25px;
+    border-color: whitesmoke;
+    border: none;
+    margin-right: 10px;
+}
+.Calc:hover{
+    opacity: 0.7;
+}
+.Calc:active{
+    opacity: 0.4;
+}
+.Reset{  
+    background-color: red;
+    cursor: pointer;
+    color: black;
+    height: 60px;
+    width: 150px;            
+    font-weight: bold;
+    border-radius: 25px;
+    border-color: whitesmoke;
+    border: none;     
+}    
+.Reset:hover{
+    opacity: 0.7;
+}
+.Reset:active{
+    opacity: 0.4;
+            
+}

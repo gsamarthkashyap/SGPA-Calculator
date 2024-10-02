@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calculate.js"></script>
+<body>
+    <div>
+        <center>
+            <b>
+                <font size="7" color="gold">
+                    <h4 style="text-align:center;">SGPA CALCULATOR</h4>
+                </font>
+            </b>
+        </center>
+
+        <div>
+            <center>
+                <b>
+                    <font size="5" color="white">
+                        ADA: 
+                        <input type="number" id="ada" style="text-align: center;">
+                    </font>
+                </b>
+            </center>
+        </div>
+
+        <div>
+            <p></p>
+            <center>
+                <b>
+                    <font size="5" color="white">
+                        DMS: 
+                        <input type="number" id="dms" style="text-align: center;">
+                    </font>
+                </b>
+            </center>
+            <p></p>
+        </div>
+
+        <div>
+            <p></p>
+            <center>
+                <b>
+                    <font size="5" color="white">
+                        DBMS: 
+                        <input type="number" id="dbms" style="text-align: center;">
+                    </font>
+                </b>
+            </center>
+            <p></p>
+        </div>
+
+        <div>
+            <p></p>
+            <center>
+                <b>
+                    <font size="5" color="white">
+                        AI: 
+                        <input type="number" id="ai" style="text-align: center;">
+                    </font>
+                </b>
+            </center>
+            <p></p>
+        </div>
+
+        <div>
+            <p></p>
+            <center>
+                <b>
+                    <font size="5" color="white">
+                        BIOLOGY: 
+                        <input type="number" id="biology" style="text-align: center;">
+                    </font>
+                </b>
+            </center>
+            <p></p>
+        </div>
+
+        <div>
+            <p></p>
+            <center>
+                <b>
+                    <font size="5" color="white">
+                        UHV: 
+                        <input type="number" id="uhv" style="text-align: center;">
+                    </font>
+                </b>
+            </center>
+            <p></p>
+        </div>
+
+        <div>
+            <p></p>
+            <center>
+                <b>
+                    <font size="5" color="white">
+                        ADA LAB: 
+                        <input type="number" id="adalab" style="text-align: center;">
+                    </font>
+                </b>
+            </center>
+            <p></p>
+        </div>
+
+        <div>
+            <p></p>
+            <center>
+                <b>
+                    <font size="5" color="white">
+                        JULIA LAB: 
+                        <input type="number" id="julialab" style="text-align: center;">
+                    </font>
+                </b>
+            </center>
+            <p></p>
+        </div>
+
+        <p></p>
+        <center>
+            <b>
+                <button type="button" onclick="calculateSGPA()" class="Calc">
+                    <h2>CALCULATE</h2>
+                </button>
+                <button type="button" onclick="resetFields()" class="Reset">
+                    <h2>RESET</h2>
+                </button>
+            </b>
+        </center>
+        <p></p>
+
+        <p></p>
+        <center>
+            <b>
+                <font size="50" color="white">
+                    SGPA <span id="result">0</span>
+                </font>
+            </b>
+        </center>
+        <p></p>
+    </div>
+</body>
+</html>
