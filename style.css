@@ -1,49 +1,83 @@
-h4{
+body {
+    background-image: url(https://img.freepik.com/free-photo/grunge-black-concrete-textured-background_53876-124541.jpg);
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    color: gold;
+    font-size: 40px;
     margin-bottom: 20px;
 }
-body{
-    background-image: url(https://img.freepik.com/free-photo/grunge-black-concrete-textured-background_53876-124541.jpg);
-}        
-p{
-    width: 100px;
-    display: inline-flexbox;
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
-div{
-    display: inline-flexbox;
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
 }
-.Calc{
-    background-color: green;
-    cursor: pointer;
-    color: white;
-    height: 60px;
+
+label {
+    width: 120px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
     width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.Calc {
+    background-color: green;
+    color: white;
+    height: 50px;
+    width: 140px;
+    font-size: 18px;
     font-weight: bold;
     border-radius: 25px;
-    border-color: whitesmoke;
     border: none;
     margin-right: 10px;
+    cursor: pointer;
 }
-.Calc:hover{
+
+.Calc:hover, .Reset:hover {
     opacity: 0.7;
 }
-.Calc:active{
+
+.Calc:active, .Reset:active {
     opacity: 0.4;
 }
-.Reset{  
+
+.Reset {  
     background-color: red;
-    cursor: pointer;
     color: black;
-    height: 60px;
-    width: 150px;            
+    height: 50px;
+    width: 140px;            
+    font-size: 18px;
     font-weight: bold;
     border-radius: 25px;
-    border-color: whitesmoke;
-    border: none;     
+    border: none;
+    cursor: pointer;
 }    
-.Reset:hover{
-    opacity: 0.7;
-}
-.Reset:active{
-    opacity: 0.4;
-            
+
+.result {
+    font-size: 30px;
+    margin-top: 20px;
 }

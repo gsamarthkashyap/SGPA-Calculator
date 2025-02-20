@@ -7,8 +7,8 @@ function calculateSGPA() {
     const uhv = parseFloat(document.getElementById('uhv').value);
     const adalab = parseFloat(document.getElementById('adalab').value);
     const julialab = parseFloat(document.getElementById('julialab').value);
-    totalcredits=(3*getGrade(ada))+(3*getGrade(dms))+(4*getGrade(dbms))+(4*getGrade(ai))+(2*getGrade(biology))+getGrade(uhv)+getGrade(adalab)+getGrade(julialab)
-    SGPA=(totalcredits/190)*10;
+    totalcredits=(4*getGrade(ada))+(4*getGrade(dms))+(4*getGrade(dbms))+(3*getGrade(ai))+(3*getGrade(adalab))+getGrade(uhv)+getGrade(biology)+(2*getGrade(julialab))
+    SGPA=(totalcredits/220)*10;
     document.getElementById('result').innerText=SGPA.toFixed(2);
 }
 function getGrade(marks){
